@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577F2D27175FDC78002CC498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F2D26175FDC78002CC498 /* UIKit.framework */; };
+		577F2D29175FDC78002CC498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F2D28175FDC78002CC498 /* Foundation.framework */; };
+		577F2D2B175FDC78002CC498 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F2D2A175FDC78002CC498 /* CoreGraphics.framework */; };
+		577F2D31175FDC78002CC498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D2F175FDC78002CC498 /* InfoPlist.strings */; };
+		577F2D33175FDC78002CC498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F2D32175FDC78002CC498 /* main.m */; };
+		577F2D37175FDC79002CC498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F2D36175FDC79002CC498 /* AppDelegate.m */; };
+		577F2D3F175FDC79002CC498 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F2D3E175FDC79002CC498 /* SenTestingKit.framework */; };
+		577F2D40175FDC79002CC498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F2D26175FDC78002CC498 /* UIKit.framework */; };
+		577F2D41175FDC79002CC498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F2D28175FDC78002CC498 /* Foundation.framework */; };
+		577F2D49175FDC79002CC498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D47175FDC79002CC498 /* InfoPlist.strings */; };
+		577F2D4C175FDC79002CC498 /* fastfoodfranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F2D4B175FDC79002CC498 /* fastfoodfranceTests.m */; };
+		577F2D56175FDCC7002CC498 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D55175FDCC7002CC498 /* MainWindow.xib */; };
+		577F2D5B175FDF8D002CC498 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F2D59175FDF8D002CC498 /* MainViewController.m */; };
+		577F2D5C175FDF8D002CC498 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D5A175FDF8D002CC498 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577F2D42175FDC79002CC498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577F2D19175FDC78002CC498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577F2D21175FDC78002CC498;
+			remoteInfo = fastfoodfrance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		577F2D22175FDC78002CC498 /* fastfoodfrance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastfoodfrance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577F2D26175FDC78002CC498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		577F2D28175FDC78002CC498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		577F2D2A175FDC78002CC498 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		577F2D2E175FDC78002CC498 /* fastfoodfrance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fastfoodfrance-Info.plist"; sourceTree = "<group>"; };
+		577F2D30175FDC78002CC498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		577F2D32175FDC78002CC498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		577F2D34175FDC79002CC498 /* fastfoodfrance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fastfoodfrance-Prefix.pch"; sourceTree = "<group>"; };
+		577F2D35175FDC79002CC498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		577F2D36175FDC79002CC498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		577F2D3D175FDC79002CC498 /* fastfoodfranceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastfoodfranceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577F2D3E175FDC79002CC498 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		577F2D46175FDC79002CC498 /* fastfoodfranceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fastfoodfranceTests-Info.plist"; sourceTree = "<group>"; };
+		577F2D48175FDC79002CC498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		577F2D4A175FDC79002CC498 /* fastfoodfranceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fastfoodfranceTests.h; sourceTree = "<group>"; };
+		577F2D4B175FDC79002CC498 /* fastfoodfranceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fastfoodfranceTests.m; sourceTree = "<group>"; };
+		577F2D55175FDCC7002CC498 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		577F2D58175FDF8D002CC498 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		577F2D59175FDF8D002CC498 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		577F2D5A175FDF8D002CC498 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577F2D1F175FDC78002CC498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F2D27175FDC78002CC498 /* UIKit.framework in Frameworks */,
+				577F2D29175FDC78002CC498 /* Foundation.framework in Frameworks */,
+				577F2D2B175FDC78002CC498 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577F2D39175FDC79002CC498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F2D3F175FDC79002CC498 /* SenTestingKit.framework in Frameworks */,
+				577F2D40175FDC79002CC498 /* UIKit.framework in Frameworks */,
+				577F2D41175FDC79002CC498 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577F2D17175FDC78002CC498 = {
+			isa = PBXGroup;
+			children = (
+				577F2D2C175FDC78002CC498 /* fastfoodfrance */,
+				577F2D44175FDC79002CC498 /* fastfoodfranceTests */,
+				577F2D25175FDC78002CC498 /* Frameworks */,
+				577F2D23175FDC78002CC498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		577F2D23175FDC78002CC498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D22175FDC78002CC498 /* fastfoodfrance.app */,
+				577F2D3D175FDC79002CC498 /* fastfoodfranceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577F2D25175FDC78002CC498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D26175FDC78002CC498 /* UIKit.framework */,
+				577F2D28175FDC78002CC498 /* Foundation.framework */,
+				577F2D2A175FDC78002CC498 /* CoreGraphics.framework */,
+				577F2D3E175FDC79002CC498 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		577F2D2C175FDC78002CC498 /* fastfoodfrance */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D35175FDC79002CC498 /* AppDelegate.h */,
+				577F2D36175FDC79002CC498 /* AppDelegate.m */,
+				577F2D55175FDCC7002CC498 /* MainWindow.xib */,
+				577F2D57175FDF39002CC498 /* MainViewController */,
+				577F2D2D175FDC78002CC498 /* Supporting Files */,
+			);
+			path = fastfoodfrance;
+			sourceTree = "<group>";
+		};
+		577F2D2D175FDC78002CC498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D2E175FDC78002CC498 /* fastfoodfrance-Info.plist */,
+				577F2D2F175FDC78002CC498 /* InfoPlist.strings */,
+				577F2D32175FDC78002CC498 /* main.m */,
+				577F2D34175FDC79002CC498 /* fastfoodfrance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		577F2D44175FDC79002CC498 /* fastfoodfranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D4A175FDC79002CC498 /* fastfoodfranceTests.h */,
+				577F2D4B175FDC79002CC498 /* fastfoodfranceTests.m */,
+				577F2D45175FDC79002CC498 /* Supporting Files */,
+			);
+			path = fastfoodfranceTests;
+			sourceTree = "<group>";
+		};
+		577F2D45175FDC79002CC498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D46175FDC79002CC498 /* fastfoodfranceTests-Info.plist */,
+				577F2D47175FDC79002CC498 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		577F2D57175FDF39002CC498 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				577F2D58175FDF8D002CC498 /* MainViewController.h */,
+				577F2D59175FDF8D002CC498 /* MainViewController.m */,
+				577F2D5A175FDF8D002CC498 /* MainViewController.xib */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577F2D21175FDC78002CC498 /* fastfoodfrance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577F2D4F175FDC79002CC498 /* Build configuration list for PBXNativeTarget "fastfoodfrance" */;
+			buildPhases = (
+				577F2D1E175FDC78002CC498 /* Sources */,
+				577F2D1F175FDC78002CC498 /* Frameworks */,
+				577F2D20175FDC78002CC498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastfoodfrance;
+			productName = fastfoodfrance;
+			productReference = 577F2D22175FDC78002CC498 /* fastfoodfrance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		577F2D3C175FDC79002CC498 /* fastfoodfranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577F2D52175FDC79002CC498 /* Build configuration list for PBXNativeTarget "fastfoodfranceTests" */;
+			buildPhases = (
+				577F2D38175FDC79002CC498 /* Sources */,
+				577F2D39175FDC79002CC498 /* Frameworks */,
+				577F2D3A175FDC79002CC498 /* Resources */,
+				577F2D3B175FDC79002CC498 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577F2D43175FDC79002CC498 /* PBXTargetDependency */,
+			);
+			name = fastfoodfranceTests;
+			productName = fastfoodfranceTests;
+			productReference = 577F2D3D175FDC79002CC498 /* fastfoodfranceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577F2D19175FDC78002CC498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Ecole Centrale d'Electronique";
+			};
+			buildConfigurationList = 577F2D1C175FDC78002CC498 /* Build configuration list for PBXProject "fastfoodfrance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 577F2D17175FDC78002CC498;
+			productRefGroup = 577F2D23175FDC78002CC498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577F2D21175FDC78002CC498 /* fastfoodfrance */,
+				577F2D3C175FDC79002CC498 /* fastfoodfranceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577F2D20175FDC78002CC498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F2D31175FDC78002CC498 /* InfoPlist.strings in Resources */,
+				577F2D56175FDCC7002CC498 /* MainWindow.xib in Resources */,
+				577F2D5C175FDF8D002CC498 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577F2D3A175FDC79002CC498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F2D49175FDC79002CC498 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		577F2D3B175FDC79002CC498 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577F2D1E175FDC78002CC498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F2D33175FDC78002CC498 /* main.m in Sources */,
+				577F2D37175FDC79002CC498 /* AppDelegate.m in Sources */,
+				577F2D5B175FDF8D002CC498 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577F2D38175FDC79002CC498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F2D4C175FDC79002CC498 /* fastfoodfranceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577F2D43175FDC79002CC498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577F2D21175FDC78002CC498 /* fastfoodfrance */;
+			targetProxy = 577F2D42175FDC79002CC498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		577F2D2F175FDC78002CC498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577F2D30175FDC78002CC498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		577F2D47175FDC79002CC498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577F2D48175FDC79002CC498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		577F2D4D175FDC79002CC498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577F2D4E175FDC79002CC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577F2D50175FDC79002CC498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fastfoodfrance/fastfoodfrance-Prefix.pch";
+				INFOPLIST_FILE = "fastfoodfrance/fastfoodfrance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		577F2D51175FDC79002CC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fastfoodfrance/fastfoodfrance-Prefix.pch";
+				INFOPLIST_FILE = "fastfoodfrance/fastfoodfrance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		577F2D53175FDC79002CC498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fastfoodfrance.app/fastfoodfrance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fastfoodfrance/fastfoodfrance-Prefix.pch";
+				INFOPLIST_FILE = "fastfoodfranceTests/fastfoodfranceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		577F2D54175FDC79002CC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fastfoodfrance.app/fastfoodfrance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fastfoodfrance/fastfoodfrance-Prefix.pch";
+				INFOPLIST_FILE = "fastfoodfranceTests/fastfoodfranceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577F2D1C175FDC78002CC498 /* Build configuration list for PBXProject "fastfoodfrance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577F2D4D175FDC79002CC498 /* Debug */,
+				577F2D4E175FDC79002CC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577F2D4F175FDC79002CC498 /* Build configuration list for PBXNativeTarget "fastfoodfrance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577F2D50175FDC79002CC498 /* Debug */,
+				577F2D51175FDC79002CC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		577F2D52175FDC79002CC498 /* Build configuration list for PBXNativeTarget "fastfoodfranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577F2D53175FDC79002CC498 /* Debug */,
+				577F2D54175FDC79002CC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577F2D19175FDC78002CC498 /* Project object */;
+}
