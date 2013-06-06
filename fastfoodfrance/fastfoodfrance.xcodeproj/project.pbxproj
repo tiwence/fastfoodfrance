@@ -19,8 +19,8 @@
 		577F2D49175FDC79002CC498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D47175FDC79002CC498 /* InfoPlist.strings */; };
 		577F2D4C175FDC79002CC498 /* fastfoodfranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F2D4B175FDC79002CC498 /* fastfoodfranceTests.m */; };
 		577F2D56175FDCC7002CC498 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D55175FDCC7002CC498 /* MainWindow.xib */; };
-		577F2D5B175FDF8D002CC498 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F2D59175FDF8D002CC498 /* MainViewController.m */; };
-		577F2D5C175FDF8D002CC498 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577F2D5A175FDF8D002CC498 /* MainViewController.xib */; };
+		E90961891760F29700863E10 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90961871760F29700863E10 /* MainViewController.m */; };
+		E909618A1760F29700863E10 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90961881760F29700863E10 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +51,9 @@
 		577F2D4A175FDC79002CC498 /* fastfoodfranceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fastfoodfranceTests.h; sourceTree = "<group>"; };
 		577F2D4B175FDC79002CC498 /* fastfoodfranceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fastfoodfranceTests.m; sourceTree = "<group>"; };
 		577F2D55175FDCC7002CC498 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		577F2D58175FDF8D002CC498 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		577F2D59175FDF8D002CC498 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		577F2D5A175FDF8D002CC498 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E90961861760F29700863E10 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E90961871760F29700863E10 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E90961881760F29700863E10 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +155,9 @@
 		577F2D57175FDF39002CC498 /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
-				577F2D58175FDF8D002CC498 /* MainViewController.h */,
-				577F2D59175FDF8D002CC498 /* MainViewController.m */,
-				577F2D5A175FDF8D002CC498 /* MainViewController.xib */,
+				E90961861760F29700863E10 /* MainViewController.h */,
+				E90961871760F29700863E10 /* MainViewController.m */,
+				E90961881760F29700863E10 /* MainViewController.xib */,
 			);
 			name = MainViewController;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 			files = (
 				577F2D31175FDC78002CC498 /* InfoPlist.strings in Resources */,
 				577F2D56175FDCC7002CC498 /* MainWindow.xib in Resources */,
-				577F2D5C175FDF8D002CC498 /* MainViewController.xib in Resources */,
+				E909618A1760F29700863E10 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			files = (
 				577F2D33175FDC78002CC498 /* main.m in Sources */,
 				577F2D37175FDC79002CC498 /* AppDelegate.m in Sources */,
-				577F2D5B175FDF8D002CC498 /* MainViewController.m in Sources */,
+				E90961891760F29700863E10 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +436,7 @@
 				577F2D51175FDC79002CC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		577F2D52175FDC79002CC498 /* Build configuration list for PBXNativeTarget "fastfoodfranceTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +445,7 @@
 				577F2D54175FDC79002CC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
